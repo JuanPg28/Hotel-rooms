@@ -1,0 +1,154 @@
+body {
+    margin:0px;
+    font-family: 'Open Sans', sans-serif;
+    background: url(img/noise.jpg);
+}
+
+
+#principal {
+    background: url(img/fondo-hotel.png);
+    text-align: left;
+    padding-left: 50px;
+    height: 90px;
+    font-size: 3em;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding-top: 40px;
+}
+
+#principal .indicador {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.5em;
+    color: rgba(51, 129, 71, 0.938);
+}
+
+#principal .redes {
+    text-decoration: none;
+    font-size: 0.5em;
+    color: rgba(51, 129, 71, 0.938);
+}
+
+#principal a{
+    text-decoration: none;
+    color: rgba(51, 129, 70, 0.986);
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+#listahoteles {
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 20px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: normal;
+    font-size: 40px;
+    margin-top: 75px;
+    margin-bottom: 5px;
+    color: rgba(51, 129, 71, 0.938);
+}
+
+.hab1-img, .hab2-img, .hab3-img {
+    width: 30px;
+    height: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.hab1, .hab2, .hab3 {
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(151, 150, 150, 0.301);
+    width: 700px;
+    height: 300px;
+    margin-left: 325px;
+}
+
+.parrafo {
+    position: relative;
+    margin-left: 350px;
+    margin-top: -40px;
+}
+
+#p1 {
+    font-weight: bolder;
+}
+
+#p3 {
+    color: rgba(66, 146, 86, 0.938);
+}
+
+#p4 {
+    border-radius: 10px;
+    background-color: rgba(66, 146, 86, 0.938);
+    color: white;
+    width: 100px;
+    height: 30px;
+    font-weight: bolder;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.hab1 img, .hab2 img, .hab3 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+#preciomas {
+    margin-left: 20px;
+    color: rgb(119, 47, 35);
+}
+#preciomenos {
+    margin-left: 20px;
+    color: rgb(38, 109, 32);
+}
+
+#form {
+    width: 250px;
+    height: 50px;
+  }
+  
+  #form p {
+    margin-top: 5px;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  label {
+    color: grey;
+    font-size: 40px;
+  }
+  
+  .clasificacion {
+    margin-left: 20px;
+    direction: ltr;
+    unicode-bidi:bidi-override;
+    margin-top: 0%;
+  }
+  
+  label:hover,
+  label:hover ~ label {
+    color: rgba(66, 146, 86, 0.938);
+  }
+  
+  input[type="radio"]:checked ~ label {
+    color: rgba(66, 146, 86, 0.938);
+}
+
+nav {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -75px;
+}
+
+#campana {
+    text-align: center;
+    margin-top: -75px;
+}
